@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third layout</title>
+    <style>
+        #main{
+           height:  700px;
+           width: 800px;
+           background: yellowgreen;
+        }
+        #nav{
+            height: 100px;
+            width: 100%;
+            background: gray;
+        }
+        #text{
+            height: 500px;
+            width: 100%;
+            background-color: azure;
+            display: flex;
+        }
+        #left-text{
+            height: 500px;
+            width: 250px;
+            background-color: darksalmon;
+        }
+        #photo{
+            height: 500px;
+            width: 550px;
+        
+        }
+        #note{
+            height: 60px;
+            width: 500px;
+            background-color: aqua;
+            margin: auto;
+            margin-top: 20px;
+        }
+        #img{
+            display: flex;
+            gap: 30px;
+            margin-left: 30px;
+            margin-top: 30px;
+        }
+        #img1{
+            height: 350px;
+            width: 230px;
+            background-color: brown;
+            
+        }
+        #img2{
+            height: 350px;
+            width: 230px;
+            background-color: brown;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <main id="main">
+        <nav id="nav"></nav>
+        <div id="text">
+            <div id="left-text"></div>
+            <div id="photo">
+                <div id="note"></div>
+               <div id="img" > <div id="img1"></div>
+               <div id="img2"></div>
+            </div>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+    </main>
+</body>
+</html>
